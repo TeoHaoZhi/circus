@@ -1,3 +1,5 @@
+package Circus;
+
 public class Ladder extends Equipment {
 
     public Ladder(int purchasePrice) {
@@ -8,4 +10,5 @@ public class Ladder extends Equipment {
     public int getValue() {
         return purchasePrice / 2;
     }
+
 }

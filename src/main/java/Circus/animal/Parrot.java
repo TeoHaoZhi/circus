@@ -1,3 +1,7 @@
+package Circus.animal;
+
+import Circus.animal.Bird;
+
 public class Parrot extends Bird {
     @Override
     public String speak() {
@@ -7,5 +11,8 @@ public class Parrot extends Bird {
     @Override
     public String toString() {
         return "I'm a parrot";
+    }
+    public int getValue() {
+        return 20;
     }
 }
